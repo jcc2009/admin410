@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    font-family:"arial", sans-serif;
+    background-color:#7c7373;
+}
+header {
+    height:60px;
+    margin:0px auto;
+    background:#eae6e1;
+}
+header nav{
+    height:62px;
+}
+header li{
+    margin:0;
+}
+header nav ul{
+    float:right;
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+header nav ul li a {
+    float:left;
+    line-height:62px;
+    padding:0 18px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#000000;
+    opacity:0.4;
+    transition:opacity .25;
+}
+header nav ul li a:hover{
+    opacity:1;
+}
+header nav ul li:hover ul{
+    display:block;
+    margin:0;
+    padding:20px -20px;
+}
+header ul ul{
+    display:none;
+    position:absolute;
+    background-color:#c1b4b4;
+
+}
+header ul ul li{
+    display:block;
+}
+h1 {
+    text-align:center;
+    margin:40px;
+}
+h2{
+    text-align:center;
+}
+h3 {
+    text-align:center;
+    
+}
+.dogs {
+    height:auto;
+    width:auto;
+
+}
+.dog1 {
+    width:30%;
+    height:auto;
+    padding:0 6px;
+}
+.cat1 {
+    width:30%;
+    height:auto;
+    padding:0 6px;
+}
+.Snake1 {
+    width:30%;
+    height:auto;
+    padding:0 6px;
+}
+.Coworkers{
+    width:30%;
+    height:auto;
+    padding:
+}
+p {
+    text-align:center;
+}
+#content {
+    width:30%;
+    float:left;
+    padding:5px 10px;
+ 
+}
+#middle {
+    width:30%;
+    float:left;
+    padding:5px 10px;
+}
+#sidebar {
+    width:30%;
+    float:left;
+    padding:5px 10px;
+}
+.fa {
+    padding:20px;
+    font-size:30px;
+    width:20px;
+    text-align:center;
+    text-decoration:none;
+    border-radius:50%
+}
+.fa:hover{
+    opacity:1;
+}
+.fa-facebook {
+    background:#3B5998;
+    Color:white;
+}
+.fa-twitter {
+    background:#55ACEE;
+    color:white;
+}
+
